@@ -5,7 +5,8 @@ class Assignment4 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(appBar: AppBar(
+    return Scaffold(
+      appBar: AppBar(
         centerTitle: true,
         title: Text("Demo"),
           backgroundColor:Color.fromARGB(255, 4, 111, 161),
