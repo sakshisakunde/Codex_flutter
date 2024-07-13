@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:practical3/Assignment1.dart';
+import 'package:practical3/Assignment2.dart';
+import 'package:practical3/Assignment3.dart';
 
 void main() {
   runApp(const MainApp());
@@ -9,12 +12,11 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
+    return MaterialApp(
+      home: Assignment3(
+       
         ),
-      ),
-    );
+      );
+    
   }
 }
